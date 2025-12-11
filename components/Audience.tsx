@@ -42,7 +42,7 @@ export const Audience: React.FC = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             {audienceList.map((item, idx) => (
-                <div key={idx} className="flex flex-col items-start p-8 rounded-2xl bg-gradient-to-br from-white/5 to-transparent border border-white/5 hover:border-pink-500/20 transition-colors">
+                <div key={idx} className="flex flex-col items-start p-8 rounded-2xl bg-gradient-to-br from-white/10 to-transparent border border-white/5 hover:border-pink-500/20 transition-colors">
                     <div className="p-3 rounded-lg bg-pink-500/10 text-pink-500 mb-4">
                         {React.cloneElement(item.icon as React.ReactElement<any>, { size: 28 })}
                     </div>

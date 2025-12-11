@@ -27,7 +27,7 @@ export const Features: React.FC = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, idx) => (
-            <div key={idx} className="bg-brand-dark/50 p-6 rounded-xl border border-white/5 hover:border-purple-500/30 transition-all hover:bg-white/5 group">
+            <div key={idx} className="bg-brand-dark p-6 rounded-xl border border-white/5 hover:border-purple-500/30 transition-all hover:bg-white/5 group">
               <CheckCircle2 className="w-8 h-8 text-purple-500 mb-4 group-hover:scale-110 transition-transform" />
               <p className="text-lg font-medium text-white">{feature}</p>
             </div>

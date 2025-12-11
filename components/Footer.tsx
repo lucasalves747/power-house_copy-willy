@@ -12,7 +12,7 @@ export const Footer: React.FC<FooterProps> = ({ onCtaClick }) => {
         {/* Scarcity Section */}
         <div className="container mx-auto px-4 mb-20">
             <div className="max-w-5xl mx-auto bg-gradient-to-b from-gray-900 to-black border border-red-500/20 rounded-3xl p-8 md:p-12 text-center relative">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600 text-white px-6 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-lg shadow-red-900/50 flex items-center gap-2">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600 text-white px-2 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-lg shadow-red-900/50 flex items-center gap-2">
                     <Timer size={16} /> Escassez e Urgência
                 </div>
                 
@@ -50,8 +50,8 @@ export const Footer: React.FC<FooterProps> = ({ onCtaClick }) => {
                 Clique no botão abaixo, entre agora no grupo VIP gratuito e garanta seu lugar para finalmente transformar o que sabe em autoridade digital.
             </p>
             
-            <Button variant="primary" onClick={onCtaClick} className="mx-auto text-lg py-5 px-10 shadow-2xl shadow-purple-600/30" pulse>
-                QUERO ENTRAR NO GRUPO VIP — GARANTIR MEU ACESSO GRATUITO <ArrowRight />
+            <Button variant="primary" onClick={onCtaClick} className="mx-auto   px-3 shadow-2xl shadow-purple-600/30" pulse>
+                QUERO ENTRAR NO GRUPO VIP <ArrowRight />
             </Button>
 
             <div className="mt-16 pt-8 border-t border-white/5 text-gray-600 text-sm">

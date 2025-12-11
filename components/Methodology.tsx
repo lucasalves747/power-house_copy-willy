@@ -71,7 +71,7 @@ export const Methodology: React.FC = () => {
         </div>
 
         <div className="mt-6 text-center">
-            <div className="inline-flex flex-col md:flex-row gap-8 items-center justify-center p-8 bg-black/40 border border-white/10 rounded-2xl">
+            <div className="inline-flex flex-col md:flex-row gap-8 items-center justify-center p-8 w-full bg-black/40 border border-white/10 rounded-2xl">
                 <div className="text-center">
                     <p className="text-gray-500 text-sm uppercase tracking-wider mb-1">Eles pagaram</p>
                     <p className="text-3xl font-bold text-white line-through decoration-red-500 decoration-2">$2.000</p>
