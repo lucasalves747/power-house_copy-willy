@@ -9,7 +9,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
   return (
-    <section className="relative pt-24 pb-12 md:pt-32 md:pb-20 overflow-hidden">
+    <section className="relative pt-24  md:pt-32 md:pb-20 overflow-hidden">
       {/* Background Ambience - Softer */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-purple-900/10 blur-[100px] rounded-full pointer-events-none z-0"></div>
       
@@ -22,9 +22,9 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
             {/* Logo in Hero */}
             <div className="flex justify-center lg:justify-start mb-8">
               <img 
-                src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6939cbe358db0bac66414662.png" 
+                src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693af904517c3a084b5d8cf1.png" 
                 alt="Power House Logo" 
-                className="h-[200px] w-auto object-contain rotate-90"
+                className="h-[300px] w-auto object-contain"
               />
             </div>
 

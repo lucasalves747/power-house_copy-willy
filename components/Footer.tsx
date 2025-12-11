@@ -8,7 +8,7 @@ interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ onCtaClick }) => {
   return (
-    <footer className="bg-brand-dark pt-20 pb-12 relative overflow-hidden">
+    <footer className="bg-brand-dark pt-10 pb-12 relative overflow-hidden">
         {/* Scarcity Section */}
         <div className="container mx-auto px-4 mb-20">
             <div className="max-w-5xl mx-auto bg-gradient-to-b from-gray-900 to-black border border-red-500/20 rounded-3xl p-8 md:p-12 text-center relative">

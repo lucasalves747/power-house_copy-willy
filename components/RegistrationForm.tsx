@@ -22,7 +22,7 @@ export const RegistrationForm: React.FC = () => {
       <div className="absolute top-0 right-0 w-32 h-32 bg-purple-600/20 blur-3xl rounded-full -mr-16 -mt-16 pointer-events-none z-0"></div>
 
       {/* Iframe Container - Maintains the card aesthetic */}
-      <div className="relative z-10 bg-brand-card border border-white/10 rounded-2xl shadow-2xl shadow-purple-900/20 overflow-hidden min-h-[500px]">
+      <div className=" ">
         <iframe
             src="https://link.salee.ai/widget/form/JU05huAqXFi7ZQLpCtsF"
             style={{ width: '100%', height: '100%', border: 'none', borderRadius: '20px', minHeight: '500px' }}

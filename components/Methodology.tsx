@@ -36,13 +36,13 @@ const steps = [
 
 export const Methodology: React.FC = () => {
   return (
-    <section className="py-24 relative overflow-hidden bg-brand-card">
+    <section className="py-6 relative overflow-hidden bg-brand-card">
       {/* Background Gradients */}
       <div className="absolute top-1/4 left-0 w-96 h-96 bg-purple-600/10 blur-[100px] rounded-full"></div>
       <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-pink-600/10 blur-[100px] rounded-full"></div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center mb-16 space-y-6">
+        <div className="max-w-4xl mx-auto text-center mb-10 space-y-6">
           <h2 className="text-3xl md:text-5xl font-bold text-white">
             Como Isso É Possível Em <span className="text-purple-400">Apenas 3 Dias?</span>
           </h2>
@@ -55,7 +55,7 @@ export const Methodology: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
           {steps.map((step, idx) => (
             <div key={idx} className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl opacity-0 group-hover:opacity-100 blur transition-opacity duration-500"></div>
@@ -70,7 +70,7 @@ export const Methodology: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        <div className="mt-6 text-center">
             <div className="inline-flex flex-col md:flex-row gap-8 items-center justify-center p-8 bg-black/40 border border-white/10 rounded-2xl">
                 <div className="text-center">
                     <p className="text-gray-500 text-sm uppercase tracking-wider mb-1">Eles pagaram</p>

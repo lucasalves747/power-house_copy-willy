@@ -25,9 +25,9 @@ export const Header: React.FC<HeaderProps> = ({ onCtaClick }) => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center justify-start">
             <img 
-              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6939cbe358db0bac66414662.png" 
+              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693af904517c3a084b5d8cf1.png" 
               alt="Power House Logo" 
-              className="h-20  w-auto object-contain rotate-90"
+              className="h-14  w-auto object-contain"
             />
         </div>
 
