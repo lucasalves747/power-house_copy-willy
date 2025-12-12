@@ -12,9 +12,7 @@ export const Footer: React.FC<FooterProps> = ({ onCtaClick }) => {
         {/* Scarcity Section */}
         <div className="container mx-auto px-4 mb-20">
             <div className="max-w-5xl mx-auto bg-gradient-to-b from-gray-900 to-black border border-red-500/20 rounded-3xl p-8 md:p-12 text-center relative">
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600 text-white px-2 py-2 rounded-full font-bold text-sm uppercase tracking-widest shadow-lg shadow-red-900/50 flex items-center gap-2">
-                    <Timer size={16} /> Escassez e Urgência
-                </div>
+                
                 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6">
                     <div className="space-y-2">
